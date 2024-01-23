@@ -1,0 +1,45 @@
+/* Generelt */
+
+body {
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1560px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+img {
+    max-width: 700px;
+    max-height: 600px;
+    object-fit: cover;
+}
+
+@media only screen and (max-width: 1640px) {
+    .container {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+}
+
+hr {
+    max-width: 500px;
+    margin: 50px auto;
+}
+
+/* Fonts */
+
+h1 {
+    font-size: 50px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    line-height: 82px;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+}
